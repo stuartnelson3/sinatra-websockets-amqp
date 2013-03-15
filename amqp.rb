@@ -7,7 +7,7 @@ EventMachine.run do
     channel.queue("").bind(exchange)
    
     # EM.add_periodic_timer(2) do
-    #   exchange.publish("BOS 101, NYK 89").publish("ORL 85, ALT 88")
+    #   exchange.publish("test publish 1").publish("test publish 2")
     # end
    
     # disconnect & exit after 2 seconds
